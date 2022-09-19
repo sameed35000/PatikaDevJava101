@@ -26,7 +26,7 @@ public class ucgen {
 	    
 	    d = (a+b+c)/2;
 	    double alan = Math.sqrt(d*(d-a)*(d-b)*(d-c));
-	    System.out.println("Üçgenin Alanı: " + d + "cm^2");
+	    System.out.println("Üçgenin Alanı: " + alan + "cm^2");
 	    
 	}
 
