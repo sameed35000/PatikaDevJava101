@@ -27,8 +27,7 @@ public class hesapMakinesi {
 				System.out.println("Bir Sayı 0'a Bölünemez");
 			} else System.out.println("Sonuç: " + (n1/n2));
 				break;
+			default: System.out.println("Geçersiz İşlem Girdiniz! Tekrar Deneyin.");
 		}
-
 	}
-
 }
