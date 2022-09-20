@@ -23,9 +23,16 @@ public class hesapMakinesi {
 				System.out.println("Sonuç: " + (n1*n2));
 				break;
 			case 4:
-				if(n2==0){
+				//Switch-Case ile Çözüm
+				switch(n2) {
+				case 0: System.out.println("Bir Sayı 0'a Bölünemez");
+				break;
+				default: System.out.println("Sonuç: " + (n1/n2));
+				}
+				//If-Else ile Çözüm
+				/*if(n2==0){
 				System.out.println("Bir Sayı 0'a Bölünemez");
-			} else System.out.println("Sonuç: " + (n1/n2));
+			} else System.out.println("Sonuç: " + (n1/n2));*/
 				break;
 			default: System.out.println("Geçersiz İşlem Girdiniz! Tekrar Deneyin.");
 		}
