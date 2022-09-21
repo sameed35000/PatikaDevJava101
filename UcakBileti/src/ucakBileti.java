@@ -30,6 +30,7 @@ public class ucakBileti {
 		} else {
 			System.out.println("Hatalı Veri Girdiniz!");
 		}
+		//2. Mesafe Sorgusu Birden Fazla Uyarı Mesajı Vermemek İçin
 		if (distance > 0) {
 			if (travelType == 1) {
 				price = price + 0;
