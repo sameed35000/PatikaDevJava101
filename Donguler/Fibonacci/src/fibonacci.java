@@ -7,7 +7,7 @@ public class fibonacci {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Fibonacci Serisinde Kaç Sayı Görmek İstiyorsunuz?: ");
 		num = input.nextInt();
-		for (int i = 0; i <= num; i++) {
+		for (int i = 0; i <= num-1; i++) {
 			int total = 0;
 			if (i == 0) {
 				System.out.println(fibOne + " + " + fibTwo + " = " + fibTwo);
@@ -24,6 +24,3 @@ public class fibonacci {
 		}
 	}
 }
-
-
-
