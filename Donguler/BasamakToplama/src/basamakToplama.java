@@ -24,6 +24,7 @@ public class basamakToplama {
 			
 		}
 		System.out.print(" = " + sum);
+		input.close();
 
 	}
 
