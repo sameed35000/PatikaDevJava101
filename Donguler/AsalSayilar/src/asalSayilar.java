@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class asalSayilar {
 
 	public static void main(String[] args) {
@@ -17,7 +16,5 @@ public class asalSayilar {
                 System.out.print(sayi + " ");
             }
         }
-
 	}
-
 }

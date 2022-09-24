@@ -14,6 +14,7 @@ public class usluSayilar {
 			answer *= num ;
 		}
 		System.out.println("Cevap => " + num + "^" + multiple + " => " + answer);
+		input.close();
 	}
 
 }

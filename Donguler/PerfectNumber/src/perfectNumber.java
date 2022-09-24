@@ -19,7 +19,8 @@ public class perfectNumber {
 		else {
 			System.out.println("Girdiğiniz " + number + " Sayısı Mükemmel Sayı Değildir.");
 		}
-
+		input.close();
 	}
 
 }
+

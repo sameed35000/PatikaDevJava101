@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class fibonacci {
-
+	
 	public static void main(String[] args) {
 		int num, fibOne = 0, fibTwo = 1;
 		Scanner input = new Scanner(System.in);
@@ -21,6 +21,8 @@ public class fibonacci {
 				System.out.println(fibOne + " + " + fibTwo + " = " + total);
 			}
 			input.close();
+			
 		}
 	}
+	
 }
