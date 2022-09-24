@@ -3,7 +3,11 @@ import java.util.Scanner;
 public class usluSayi {
 
 	static int us(int taban, int us) {
-		int sonuc = 1;
+		if (us == 0) {
+			return 1;
+		}
+		return taban * us(taban, us-1);
+		/*int sonuc = 1;
 		if (us == 0) {
 			return 1;
 		} else if (taban == 0) {
@@ -14,7 +18,7 @@ public class usluSayi {
 				us--;
 			}
 		}
-		return sonuc;
+		return sonuc;*/
 	}
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
