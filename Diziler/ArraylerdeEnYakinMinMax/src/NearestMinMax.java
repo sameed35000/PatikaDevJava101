@@ -16,7 +16,6 @@ public class NearestMinMax {
 				break;
 			}
 		}
-		input.close();
-		
+		input.close();	
 	}
 }

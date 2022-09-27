@@ -10,19 +10,16 @@ public class Palindrom {
         }
         return true;
     }
-
     static boolean isPalindrom2(String str) {
         String reverse = "";
         for (int i = str.length() - 1; i >= 0; i--) {
             reverse += str.charAt(i);
         }
-
         if (str.equals(reverse))
             return true;
         else
             return false;
     }
-
     public static void main(String[] args) {
     	Scanner input = new Scanner(System.in);
     	System.out.print("Sorgulamak İstediğiniz Kelimeyi Giriniz: ");
@@ -33,5 +30,6 @@ public class Palindrom {
     	else {
     		System.out.println(word + " Kelimesi Palindrom Bir Kelime Değildir.");
     	}
+    	input.close();
     }
 }

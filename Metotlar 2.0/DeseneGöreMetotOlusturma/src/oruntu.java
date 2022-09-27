@@ -19,11 +19,19 @@ public class oruntu {
 		}
 	}
 	public static void main(String[] args) {
-		int num;
+		/*int num;
 		Scanner input = new Scanner(System.in);
 		System.out.print("Bir Sayı Giriniz: ");
 		num = input.nextInt();
 		oruntu(num, num, 0);
-		input.close();
+		input.close();*/
+		int total = 1;
+	    Scanner s = new Scanner(System.in);
+	    int n = s.nextInt();
+	    for(int i = 1 ; i<=n;i++){
+	      total=total*i;
+	    }
+	    System.out.print(total);
+	  
 	}
 }

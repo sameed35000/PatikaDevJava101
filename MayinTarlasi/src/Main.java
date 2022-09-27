@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		/*Scanner scanner = new Scanner(System.in);
 		int row , column ;
         System.out.print("Satır Sayısını Giriniz: ");
         row = scanner.nextInt();
@@ -10,6 +10,8 @@ public class Main {
         column = scanner.nextInt();
         MineSweeper mineSweeper = new MineSweeper(row, column);
         mineSweeper.run();
-        scanner.close();
+        scanner.close();*/
+		int x = 0, y = -2; 
+		System.out.print(Math.min(x,y)); 
 	}
 }
